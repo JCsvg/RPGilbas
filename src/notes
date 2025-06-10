@@ -1,0 +1,39 @@
+
+Itens = [
+    - poção (+vida)     [util]
+    - repelentes        [util]
+    - moedas
+]
+
+Inventário = [
+    - Uma lista
+    <+> usar item
+    <+> descartar item
+    <+> exibir detalhes
+]
+
+Mapa = [
+    [ ]     |Vazio                  |Passagem livre
+    [#]     |Parede                 |Limites do Mapa
+    [*]     |Obstaculo              |Passagem bloqueada
+    [I]     |Item                   |Coleta e add no inventario
+    [A]     |Armadilha              |Perde Pontos e vida
+    [o]     |Inimigo                |inicia Sistema de combate
+    [?]     |Saida                  |Encerra o jogo com vitória
+]
+
+Obrigatório
+    - Jogator pode se movimentar e desfazer o movimento
+    - Sistema de coleta, listagem e utilização de itens via lista encadeada
+    - Sostame de game over
+    - Sistema de combate uytilziando arvore binaria
+    - Estruturas de dados usando TAD's
+    - Interfaces{
+        1. Labirinto
+        2. Inventario
+            a. Exibir info de itens
+        3. Combate
+    }
+    - .c e .h para as estruturas
+    - Modularização
+    - funções call-back
