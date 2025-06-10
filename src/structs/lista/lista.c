@@ -33,6 +33,16 @@ private bool lista_vazia(ptLista lista) {
     rt lista->tam == 0;
 }
 
+private ptItem item_init(int id) {
+    ptItem item = malloc(sizeof(ptItem));
+
+
+
+    rt item;
+}
+
+int lista_inserir(ptLista lista, int valor) {}
+
 // Funções dos Itens
 
 
